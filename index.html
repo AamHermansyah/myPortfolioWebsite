@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome || Aam hermansyah</title>
+    <link rel="stylesheet" href="./dist/css/styles.css">
+</head>
+
+<body class="bg-primary-bg">
+    <!-- navigation -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary-txt block py-6">AamHermansyah</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-7 top-[90%] lg:block lg:static lg:bg-transparent lg:max-w-full lg:top-full lg:shadow-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#hero"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary-txt lg:text-secondary-txt">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary-txt lg:text-secondary-txt">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary-txt lg:text-secondary-txt">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary-txt lg:text-secondary-txt">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary-txt lg:text-secondary-txt">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-base flex text-dark py-2 mx-8 group-hover:text-primary-txt lg:text-secondary-txt">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class=" w-full self-center px-4 md:w-1/2">
+                    <h1 class="text-base font-semibold text-secondary-txt md:text-xl">
+                        Welcome all 🙌, my name is
+                        <span class="block font-bold text-primary-txt text-4xl mt-1">Aam Hermansyah</span>
+                    </h1>
+                    <h2 class="font-medium text-lg mb-5 text-slate-300 md:text-2xl">
+                        Fullstack <span class="text-second">Developer</span>
+                    </h2>
+                    <p class="font-medium text-third-txt mb-10 leading-relaxed">Learn programming it's easy, <span
+                            class="text-second font-bold">right?</span> So
+                        take your bag and we will learn about programming😁</p>
+                    <a href="#contact"
+                        class="text-base font-semibold text-third-txt bg-primary-txt py-3 px-8 rounded hover:shadow-lg hover:bg-opacity-80 transition duration-300 ease-in-out">Contact
+                        Me</a>
+                </div>
+
+                <div class="w-full self-end px-4 md:w-1/2">
+                    <div class="relative mt-10 lg:mt-0">
+                        <img src="./dist/img/me.png" alt="Aam Hermansyah" class="max-w-full mx-auto mix-blend-darken">
+                        <span class="absolute inset-0 -z-10 flex justify-center">
+                            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#afb05e"
+                                    d="M28.9,-49.9C35.9,-46.1,38.9,-35.1,40.5,-25.6C42.1,-16.1,42.3,-8.1,48.2,3.4C54.1,14.9,65.7,29.7,66.4,43.2C67,56.6,56.8,68.6,43.9,76.2C31,83.7,15.5,86.9,0.1,86.7C-15.2,86.4,-30.5,82.8,-44,75.6C-57.5,68.4,-69.2,57.6,-77.3,44.4C-85.3,31.2,-89.7,15.6,-82.8,4C-75.8,-7.6,-57.5,-15.1,-49.8,-28.9C-42,-42.6,-44.8,-62.6,-38.3,-66.6C-31.8,-70.7,-15.9,-58.9,-2.5,-54.6C11,-50.3,21.9,-53.7,28.9,-49.9Z"
+                                    transform="translate(110 90) scale(1.2)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me -->
+    <section id="about" class="pt-36 pb-16">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 md:w-1/2">
+                    <h4 class="font-bold uppercase text-secondary-txt text-md mb-3">About me</h4>
+                    <h2 class="font-bold text-primary-txt text-2xl mb-5 max-w-md lg:text-4xl">Hello everyone im very
+                        glad
+                        for your come!
+                    </h2>
+                    <p class="font-medium text-base text-third-txt max-w-xl lg:text-lg">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit.
+                        Nam, quas saepe? Vel quas odio deleniti
+                        dolores?</p>
+                </div>
+                <div class="w-full px-4 md:w-1/2 lg:pt-8">
+                    <h3 class="font-bold text-xl text-primary-txt mb-3 lg:text-3xl">Lets go to be my friend</h3>
+                    <p class="font-medium text-base text-third-txt max-w-xl mb-6 lg:text-lg">Lorem ipsum dolor sit, amet
+                        consectetur
+                        adipisicing elit. In atque magni ea sunt nostrum, commodi
+                        libero!</p>
+
+                    <!-- icons social media -->
+                    <div class="flex items-center gap-2">
+                        <a href="http://www.twitter.com/Aam_Hermansyah" target="_blank"
+                            class="w-9 h-9 p-1 text-secondary-txt border rounded-full flex justify-center items-center hover:border-primary hover:bg-primary-txt hover:text-white transition duration-200">
+                            <svg role="img" class="fill-current" width="20" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <title>Twitter</title>
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+
+                        <a href="http://www.twitter.com/Aam_Hermansyah" target="_blank"
+                            class="w-9 h-9 p-1 text-secondary-txt border rounded-full flex justify-center items-center hover:border-primary hover:bg-primary-txt hover:text-white transition duration-200">
+                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>WhatsApp</title>
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                            </svg>
+                        </a>
+
+                        <a href="http://www.twitter.com/Aam_Hermansyah" target="_blank"
+                            class="w-9 h-9 p-1 text-secondary-txt border rounded-full flex justify-center items-center hover:border-primary hover:bg-primary-txt hover:text-white transition duration-200">
+                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Pinterest</title>
+                                <path
+                                    d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z" />
+                            </svg>
+                        </a>
+
+                        <a href="http://www.twitter.com/Aam_Hermansyah" target="_blank"
+                            class="w-9 h-9 p-1 text-secondary-txt border rounded-full flex justify-center items-center hover:border-primary hover:bg-primary-txt hover:text-white transition duration-200">
+                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                            </svg>
+                        </a>
+
+                        <a href="http://www.twitter.com/Aam_Hermansyah" target="_blank"
+                            class="w-9 h-9 p-1 text-secondary-txt border rounded-full flex justify-center items-center hover:border-primary hover:bg-primary-txt hover:text-white transition duration-200">
+                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Facebook</title>
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+
+                        <a href="http://www.twitter.com/Aam_Hermansyah" target="_blank"
+                            class="w-9 h-9 p-1 text-secondary-txt border rounded-full flex justify-center items-center hover:border-primary hover:bg-primary-txt hover:text-white transition duration-200">
+                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Discord</title>
+                                <path
+                                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="bg-slate-800 pt-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary-txt">Portfolio</h4>
+                    <h2 class="font-bold text-secondary-txt text-3xl mb-4 md:text-5xl">Project terbaru</h2>
+                    <p class="font-medium text-third-txt md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nemo,
+                        minus? Eligendi atque velit
+                        expedita reiciendis.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2 lg:w-1/3">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/1.png" alt="project-1">
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary-txt mt-5 mb-3">Landing page awesome</h3>
+                    <p class="font-medium text-third-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        vel excepturi at architecto ducimus
+                        voluptates.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2 lg:w-1/3">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/2.png" alt="project-2">
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary-txt mt-5 mb-3">E-commerce</h3>
+                    <p class="font-medium text-third-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        vel excepturi at architecto ducimus
+                        voluptates.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2 lg:w-1/3">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/3.png" alt="project-3">
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary-txt mt-5 mb-3">Web animation 2d</h3>
+                    <p class="font-medium text-third-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        vel excepturi at architecto ducimus
+                        voluptates.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2 lg:w-1/3">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portfolio/4.png" alt="project-4">
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary-txt mt-5 mb-3">Twibon page</h3>
+                    <p class="font-medium text-third-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        vel excepturi at architecto ducimus
+                        voluptates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients" class="pt-32 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary-txt">Clients</h4>
+                    <h2 class="font-bold text-3xl mb-4 text-secondary-txt md:text-5xl">Sponsors</h2>
+                    <p class="font-medium text-third-txt md:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                        Rerum vero sequi fuga?</p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="https://www.google.com" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-150 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/clients/firefox.svg" alt="firefox" class="w-20">
+                    </a>
+                    <a href="https://www.google.com" target="_blank"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-150 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/clients/google.svg" alt="google" class="w-20">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blog -->
+    <section id="blog" class="pt-32 pb-32 bg-slate-300">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-secondary-txt">Blog</h4>
+                    <h2 class="font-bold text-primary-txt text-3xl mb-4 md:text-5xl">Tulisan terkini</h2>
+                    <p class="font-medium md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nesciunt unde libero possimus modi laborum voluptate! Facere, quod.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                        <img src="dist/img/portfolio/1.png" alt="programming" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="#"
+                                    class="block mb-3 font-semibold text-xl text-primary-txt truncate hover:text-primary-bg">Tips
+                                    belajar programming</a>
+                            </h3>
+                            <p class="font-medium text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Amet voluptate eius in delectus, quod mollitia?</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary-bg py-2 px-4 rounded-sm hover:opacity-80">Baca
+                                Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                        <img src="dist/img/portfolio/4.png" alt="programming" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="#"
+                                    class="block mb-3 font-semibold text-xl text-primary-txt truncate hover:text-primary-bg">Trik
+                                    cepet bisa ngoding</a>
+                            </h3>
+                            <p class="font-medium text-base mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Dolor libero reprehenderit sed dicta?</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary-bg py-2 px-4 rounded-sm hover:opacity-80">Baca
+                                Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                        <img src="dist/img/portfolio/3.png" alt="keyboard" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="#"
+                                    class="block mb-3 font-semibold text-xl text-primary-txt truncate hover:text-primary-bg">Cara
+                                    agar tangan cepat ngetik work 100%</a>
+                            </h3>
+                            <p class="font-medium text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Tenetur velit laboriosam fugit voluptatibus pariatur.</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary-bg py-2 px-4 rounded-sm hover:opacity-80">Baca
+                                Selengkapnya...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="pt-32 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-secondary-txt">Contact</h4>
+                    <h2 class="font-bold text-primary-txt text-3xl mb-4 md:text-5xl">Hubungi Kami</h2>
+                    <p class="font-medium text-white md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nesciunt unde libero possimus modi laborum voluptate! Facere, quod.</p>
+                </div>
+            </div>
+
+            <div class="max-w-xl mx-auto p-5 text-secondary-txt font-bold">
+                <label for="name" class="flex flex-col mb-5">
+                    <span>Nama</span>
+                    <input type="text" name="name" id="name" class="py-1 px-2  rounded-sm">
+                </label>
+                <label for="email" class="flex flex-col mb-5">
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" class="py-1 px-2 rounded-sm">
+                </label>
+                <label for="email" class="flex flex-col mb-5">
+                    <span>Message</span>
+                    <textarea name="email" id="email" cols="20" rows="7" class="py-1 px-2 rounded-sm"></textarea>
+                </label>
+                <button type="submit" class="bg-primary-txt text-white p-1 w-full rounded-sm md:text-lg">Kirim</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="flex flex-col md:justify-evenly md:flex-row">
+            <div class="p-5 w-full max-w-md md:w-[400px]">
+                <h2 class="text-primary-txt text-2xl">Aam Hermansyah</h2>
+                <h4 class="font-medium text-secondary-txt text-[1.2rem]">Contact me</h4>
+                <div class="text-slate-300">
+                    <address>amzhermanzyah@gmail.com</address>
+                    <address>Jl. Gunung Roay 1 Desa Kahuripan Kec. Tawang Kab. Tasikmalaya Jawa Barat</address>
+                </div>
+            </div>
+
+            <div class="p-5 w-[200px]">
+                <h2 class="text-secondary-txt text-xl">News Blog</h2>
+                <a href="#" class="block text-third-txt hover:text-primary-txt">Programming</a>
+                <a href="#" class="block text-third-txt hover:text-primary-txt">Teknologi</a>
+                <a href="#" class="block text-third-txt hover:text-primary-txt">Gaya Hidup</a>
+            </div>
+
+            <div class="p-5 w-[200px]">
+                <h2 class="text-secondary-txt text-xl">Navigation</h2>
+                <a href="#hero" class="block text-third-txt hover:text-primary-txt">Home</a>
+                <a href="#about" class="block text-third-txt hover:text-primary-txt">About</a>
+                <a href="#portfolio" class="block text-third-txt hover:text-primary-txt">Portfolio</a>
+                <a href="#clients" class="block text-third-txt hover:text-primary-txt">Clients</a>
+                <a href="#blog" class="block text-third-txt hover:text-primary-txt">Blog</a>
+                <a href="#contact" class="block text-third-txt hover:text-primary-txt">Contact</a>
+            </div>
+        </div>
+        <div id="copyright" class="bg-slate-700 text-white text-center p-3 mt-4 md:text-lg md:mt-10">
+            Copyright 2020 | Aam Hermansyah
+        </div>
+    </footer>
+    <script src="./dist/js/script.js"></script>
+</body>
+
+</html>
