@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -52,6 +53,7 @@ html {
 */
 
 body {
+  font-family: 'Inconsolata', monospace;
   margin: 0;
   /* 1 */
   line-height: inherit;
